@@ -1,0 +1,67 @@
+.section_one{
+
+    background-color: #c4ac53;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+img{
+    max-width: 100%;
+    height: 100%;
+}
+
+.section_one_img{
+    flex-basis: 70%;
+    order: 2;
+}
+
+.section_one_text{
+    padding-left: 20px;
+}
+
+.section_two{
+    
+    background-color: #d0870a;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.section_two_img{
+    flex-basis: 70%;
+}
+
+.section_two_text{
+    padding-left: 20px;
+    max-width: 60%;
+}
+
+/*Normal from google didnt pass validator*/
+/*
+https://stackoverflow.com/questions/39489007/how-to-validate-google-map-embed-code-iframe
+*/
+/* Flexible iFrame */
+
+.Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+  }
+  .Flexible-container iframe,
+  .Flexible-container object,
+  .Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 500px;
+  }
+
+.g_map{
+    width: 600px;
+    height: 450px;
+    border: 0;
+}

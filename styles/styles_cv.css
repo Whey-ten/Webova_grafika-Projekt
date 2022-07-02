@@ -1,0 +1,162 @@
+body h1{
+    font-size: 8vw;
+}
+body h2{
+    font-size: 6vw;
+}
+
+body h3{
+    font-size: 2.5vw;
+}
+body h4{
+    font-size: 1.5vw;
+}
+
+header{
+    position: relative;
+}
+main{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.line{
+    height: 10px;
+    background-color: #2c2c2b;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#cv_header{
+    background-color: #c6c6c9;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.inside_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.inside_header h2{
+    font-weight: 200;
+}
+
+#pdf{
+    text-decoration: none;
+    color: #a44200;
+}
+
+#pdf:hover{
+    background-color: #8d8d92;
+    color: #2c2c2b;
+}
+
+#mail{
+    text-decoration: none;
+    color: #a44200;
+}
+
+#mail:hover{
+    background-color: #8d8d92;
+    color: #2c2c2b;
+}
+
+#cv_body{
+    background-color: #c6c6c9;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.cv_body_box{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid none solid none;
+    padding-left: 1em;
+    padding-right: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.title{
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    width: 30%;
+}
+
+.inside{
+    width: 70%;
+    font-size: 0.8em;
+}
+
+#row_one{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-width: 0.25px;
+    border-color: black;
+    border-style: none none solid none;
+}
+
+#row_one p{
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+#row_two{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-width: 0.25px;
+    border-color: black;
+    border-style: none none solid none;
+}
+
+#row_two p{
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+#row_three{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#row_three p{
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+.exp_box_top{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0.5em;
+    
+}
+
+.exp_box_add{
+    border-width: 0.25px;
+    border-color: black;
+    border-style: dotted none none none;
+    margin-top: 0.5em;
+    padding-bottom: 0.25em;
+}
+
+.edu_box{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+#cv_footer{
+    background-color: #c6c6c9;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    text-decoration: none;
+}

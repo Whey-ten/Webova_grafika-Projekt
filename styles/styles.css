@@ -1,0 +1,164 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    font-size: 2vw;
+    background-color: white;
+}
+
+body h1{
+    font-size: 10vw;
+}
+body h2{
+    font-size: 8vw;
+}
+
+header {
+    font-family: 'Raleway', sans-serif;
+    background-color: #a44200;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+.logo_icon{
+    height: 100px;
+    width: 100px;
+}
+
+ul {
+    margin: 0px;
+    list-style-type: none;
+    font-size: 5vw;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_links a{
+    float: left;
+    display: block;
+    color: #2c2c2b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0;
+}
+
+.nav_links a:hover {
+    color: white;
+    height: 50%;
+}
+
+.intro{
+    margin-top: 100px;
+}
+
+.container{
+    text-align: center;
+    background-color: #c6c6c9;
+    height: 600px;
+    font-size: 100px;
+}
+
+.spacer{
+    height: 200px;
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+    margin: 0px;
+}
+
+
+
+#rotating_logo:hover{
+    transform:rotate(360deg);
+    transition-duration:1s;
+}
+
+.box_big{
+    display: flex;
+    flex-wrap:wrap;
+    height: 200px;
+    
+}
+
+
+.box_about{
+    background-color: #c4ac53;
+    width: 25%;
+}
+
+.box_cv{
+    background-color: #d0870a;
+    width: 25%;
+}
+
+.box_portfolio{
+    background-color: #c4ac53;
+    width: 25%;
+}
+
+.box_more{
+    background-color: #d0870a;
+    width: 25%;
+}
+.box_icon{
+    transition: width 1s;
+}
+
+.box_icon:hover{
+    transform: rotate(-20deg);
+}
+img{
+    display: block;
+    height: 200px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 620px) {
+    .box_big{
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+        height: 200px;
+        width: 100%;
+    }
+}
+footer{
+    background-color: #c6c6c9;
+    margin: 0;
+}
+
+.fut_one{
+    text-align: center;
+}
+
+.fut_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fut_soc_media{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.fut_icon{
+    width: 40px;
+    height: 40px;
+    padding-right: 0.1em;
+}
